@@ -1,10 +1,13 @@
 import React from "react";
 import Card from "./Card";
+import contacts from "../contacts";
 
 function App() {
+  console.log(contacts);
+
   return (
     <div>
-      <h1 className="heading">my contacts</h1>
+      <h1 className="heading">My contacts</h1>
       <Card
         name="Beyonce"
         imgURL="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"

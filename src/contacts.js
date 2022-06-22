@@ -1,3 +1,5 @@
+// array of javascript objects - can export as a defautl
+
 const contacts = [
   {
     name: "Beyonce",
@@ -21,3 +23,5 @@ const contacts = [
     email: "gmail@chucknorris.com"
   }
 ];
+
+export default contacts;
